@@ -2,17 +2,23 @@
 
 @font-face {
   font-family: "squealer-embossed";
-  src: url("/src/fonts/squealer-embossed.ttf");
+  font-style: normal;
+  font-weight: normal;
+  src: url("./src/fonts/squealer-embossed.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "squealer";
-  src: url("/src/fonts/squealer.ttf");
+  font-style: normal;
+  font-weight: normal;
+  src: url("./src/fonts/squealer.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Glaser-Stencil-D-Regular";
-  src: url("/src/fonts/Glaser-Stencil-D-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+  src: url("./src/fonts/Glaser-Stencil-D-Regular.ttf") format("ttf");
 }
 
 * {
@@ -27,7 +33,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Glaser-Stencil-D-Regular";
+  font-family: "Glaser-Stencil-D-Regular", sans-serif;
 }
 
 :root {
