@@ -32,12 +32,27 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
   font-family: "Glaser-Stencil-D-Regular", sans-serif;
+=======
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "glaser_stencil_dregular", sans-serif;
+>>>>>>> develop
 }
 
 :root {
   --black: #000;
   --white: #fff;
+<<<<<<< HEAD
   --title-font: "squealer";
 }
+=======
+  --title-font: "squealerregular";
+}
+>>>>>>> develop
