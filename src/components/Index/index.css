@@ -1,9 +1,17 @@
-.navbar-toggler-icon {
+.navbar .navbar-toggler-icon {
   background-image: url("../../assets/Images/angus-face.png") !important;
 }
 
 h1 {
-  color: green;
+  color: blue;
+}
+
+.navbar-toggler {
+  padding: 40px !important;
+}
+
+h2 {
+  color: yellow;
 }
 
 /*# sourceMappingURL=index.css.map */
