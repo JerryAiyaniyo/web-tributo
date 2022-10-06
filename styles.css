@@ -70,11 +70,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Glaser-Stencil-D-Regular", sans-serif;
+  font-family: "glaser_stencil_dregular", sans-serif;
 }
 
 :root {
   --black: #000;
   --white: #fff;
-  --title-font: "squealer";
+  --title-font: "squealerregular";
 }
