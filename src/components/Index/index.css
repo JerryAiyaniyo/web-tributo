@@ -7,13 +7,23 @@
   background-size: 75%;
 }
 .navbar .navbar-toggler {
-  padding: 1px !important;
+  padding: 0 !important;
   border-radius: 30px;
   background-color: black;
 }
+.navbar .nav-item {
+  font-family: "Oswald", sans-serif;
+}
+.navbar .nav-link:nth {
+  padding-top: 50px;
+}
+
+hr {
+  margin: 0.5rem 0 !important;
+}
 
 h1 {
-  color: blue;
+  font-family: "squealer-embossed", sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */
