@@ -1,9 +1,24 @@
+.bg__main {
+  background-image: url("../../assets/Images/band-pictures/acdc-wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  height: 180vh;
+  z-index: -1;
+}
+
 .bg__1 {
   background-image: url("../../assets/Images/band-pictures/angus1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
-  height: 650px;
+  height: 100vh;
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 100;
 }
 
 .navbar-nav {
@@ -48,4 +63,52 @@
 .navbar-nav .nav-link.active {
   color: black !important;
   font-size: 1.4rem;
+}
+
+.audio__btn {
+  z-index: 10;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.audio__btn input {
+  background-color: #bf0706;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cd9c06;
+  color: #edbf35;
+  font-family: "glaser_stencil_dregular";
+}
+
+.tour {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tour h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.tour__box {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #edbf35;
+}
+
+.tour__box h3, 
+.tour__box h4, 
+.tour__box h5 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.2rem;
 }
