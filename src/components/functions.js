@@ -1,5 +1,5 @@
 // Función cambiar logo navbar
-let navbarLogo = document.querySelector("#navbarLogo");
+let navbarLogo = document.getElementById("#navbarLogo");
 
 navbarLogo.addEventListener('click', () => {
   document.body.style.backgroundImage = "url('../assets/Images/mask/angus-face-2.png')";
