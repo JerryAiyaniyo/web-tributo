@@ -4,7 +4,7 @@
   background-position: center;
   background-attachment: fixed;
   width: auto;
-  height: 180vh;
+  height: 280vh;
   z-index: -1;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .navbar-brand img {
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 .navbar-toggler {
@@ -85,30 +85,124 @@
   font-family: "glaser_stencil_dregular";
 }
 
+
+/***************************** TOUR SECTION *****************************/
+
 .tour {
-  margin: 30px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .tour h2 {
+  margin-top: 30px;;
   font-size: 2.5rem;
   color: white;
 }
 
-.tour__box {
-  margin-top: 30px;
-  padding: 20px;
-  border: 1px solid #edbf35;
+.tour h3 {
+  color: white;
+  margin-top: 20px;
 }
 
-.tour__box h3, 
+.tour h3 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.tour__box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5px;
+}
+
+.tour hr {
+  color: white;
+  width: 100%;
+  z-index: 100;
+  margin-top: 10px;
+}
+
+.tour__box h3 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
 .tour__box h4, 
 .tour__box h5 {
   font-family: "Oswald", sans-serif;
   color: white;
   font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.tour__box button {
+  margin: 20px 0px;
+  font-family: "squealerregular", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  padding: 7px 20px;
+  background-color: black;
+  border: 1px solid #edbf35;
+}
+
+/***************************** NEWSLETTER SECTION *****************************/
+
+.bg__2 {
+  background-image: url("../../assets/Images/band-pictures/angus2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  height: 100vh;
+  z-index: 1;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter h2 {
+  margin-top: 30px;;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/***************************** FOOTER SECTION *****************************/
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  color: white;
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+  z-index: 2;
+}
+
+footer i {
+  font-size: 1.5rem;
+
+}
+
+footer .icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
 }

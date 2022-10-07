@@ -7,6 +7,7 @@ navbarLogo.addEventListener('click', () => {
 
 // Función play audio
 var audio = document.getElementById("audio");
+audio.volume = 0.8;
 var playPauseBtn = document.getElementById('playPauseBtn');
 var count = 0;
 
