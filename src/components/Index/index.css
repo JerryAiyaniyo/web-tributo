@@ -1,0 +1,208 @@
+.bg__main {
+  background-image: url("../../assets/Images/band-pictures/acdc-wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  height: 300vh;
+  z-index: -2;
+}
+
+.bg__1 {
+  background-image: url("../../assets/Images/band-pictures/angus1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 100vh;
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.navbar-nav {
+  border: 1px solid #cd9c06;
+  border-radius: 10px;
+  
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+  background-image: url("../../assets/Images/mask/angus-face-1.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75% !important;
+}
+
+.navbar-brand img {
+  margin-right: 35px;
+}
+
+.navbar-toggler {
+  padding: 1px !important;
+  border-radius: 30px !important;
+  background-color: #bf0706 !important;
+}
+
+.nav-item {
+  font-family: "glaser_stencil_dregular", sans-serif;
+  color: white;
+  padding: 5px 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: black !important;
+  font-size: 1.4rem;
+}
+
+.audio__btn {
+  z-index: 10;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.audio__btn input {
+  background-color: #bf0706;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cd9c06;
+  color: #edbf35;
+  font-family: "glaser_stencil_dregular";
+}
+
+
+/***************************** TOUR SECTION *****************************/
+
+.tour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tour h2 {
+  margin-top: 30px;;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.tour h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+.tour h3 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.tour__box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5px;
+}
+
+.tour hr {
+  color: white;
+  width: 100%;
+  z-index: 100;
+  margin-top: 10px;
+}
+
+.tour__box h3 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.tour__box h4, 
+.tour__box h5 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.tour__box button {
+  margin: 20px 0px;
+  font-family: "squealerregular", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  padding: 7px 20px;
+  background-color: black;
+  border: 1px solid #edbf35;
+}
+
+/***************************** NEWSLETTER SECTION *****************************/
+
+.bg__2 {
+  background-image: url("../../assets/Images/band-pictures/angus2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter h2 {
+  margin-top: 30px;;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/***************************** FOOTER SECTION *****************************/
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  color: white;
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+  z-index: 2;
+}
+
+footer i {
+  font-size: 1.5rem;
+
+}
+
+footer .icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
