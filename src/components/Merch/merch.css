@@ -1,3 +1,36 @@
+body{
+    background-image: url('../../assets/Images/others/acdc-rama-cris.jpg');
+    background-repeat: no-repeat;
+}
+
+#merch .card{
+    border: none;
+}
+
+#merch .card-body{
+    background-image: url(../../assets/Images/others/ACDC_BG_Lightbox.jpeg);
+    background-size: cover;
+    color: white;
+    border: 1.8px solid rgb(211, 141, 57);
+}
+
+#store-button button{
+    background-color: #FE0000;
+    border: none;
+}
+
+#merch button{
+    background-color: #FE0000;
+    border: none;
+}
+
+#form p{
+    font-weight: bold;
+}
 
 
+#form button{
+    background-color: #FE0000;
+    border: none;
+}
 /*# sourceMappingURL=merch.css.map */

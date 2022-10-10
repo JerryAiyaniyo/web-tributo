@@ -5,75 +5,110 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Tributo AC/DC</title>
+  <link rel="icon" type="image/png" href="https://www.acdc.com/wp-content/themes/pwrup/assets/images/favicon.png">
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="../../../styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <div class="bg__main">
+  <main class="bg__main">
     <div class="bg__1">
       <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
         <div class="container">
-          <button id="navbarLogo" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button onclick="navbarLogoChange()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="navbarLogo" class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand mx-auto" href="#"><img src="../../assets/Images/logo/logo.png" alt="logo" width="80"></a>
+          <a class="navbar-brand mx-auto" href="../Index/index.html"><img src="../../assets/Images/logo/logo.png" alt="logo" width="80"></a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Home ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Index/index.html">⚡ Home ⚡</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Tour ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Tour/tour.html">⚡ Tour ⚡</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Music ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Music/music.html">⚡ Music ⚡</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Videos ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Videos/videos.html">⚡ Videos ⚡</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Photos ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Photos/photos.html">⚡ Photos ⚡</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">⚡ Merch ⚡</a>
+                <a class="nav-link active" aria-current="page" href="../Merch/merch.html">⚡ Merch ⚡</a>
               </li>
           </div>
         </div>
       </nav>
     </div>
-    <main>
-      <section>
-        <div class="audio__btn">
-          <span>⚡</span>
-          <input id="playPauseBtn" type="button" value="ROCK WHILE YOU SCROLL" onclick="playPause()">
-          <audio id="audio" src="../../assets/Songs/song-1.mp3" type="audio/mpeg"></audio>
-          <span>⚡</span>
-        </div>
-      </section>
+    <section>
+      <div class="audio__btn">
+        <span>⚡</span>
+        <input id="playPauseBtn" type="button" value="ROCK WHILE YOU SCROLL" onclick="playPause()">
+        <audio id="audio" src="../../assets/Songs/song-1.mp3" type="audio/mpeg"></audio>
+        <span>⚡</span>
+      </div>
+    </section>
 
-      <section class="tour">
-        <h2>TOUR</h2>
-        <div class="tour__box">
-          <h3>OCT 7 2022</h3>
-          <h4>ESTADI LLUÍS COMPANYS</h4>
-          <h5>BARCELONA, SPAIN</h5>
-          <button>TICKETS</button>
-        </div>
+    <section class="tour" data-aos="fade-up"
+    data-aos-duration="1000">
+      <h2>TOUR</h2>
+      <div class="tour__box">
+        <h3>OCT 7 2022</h3>
+        <h4>LLUÍS COMPANYS STADIUM</h4>
+        <h5>BARCELONA, SPAIN</h5>
+        <button>TICKETS</button>
+      </div>
+      <hr>
+      <div class="tour__box">
+        <h3>NOV 12 2022</h3>
+        <h4>WEMBLEY STADIUM</h4>
+        <h5>LONDON, UK</h5>
+        <button>TICKETS</button>
+      </div>
+      <hr>
+      <div class="tour__box">
+        <h3>NOV 19 2022</h3>
+        <h4>SANTIAGO BERNABÉU STADIUM</h4>
+        <h5>MADRID, SPAIN</h5>
+        <button>TICKETS</button>
+      </div>
+      <h3><a href="#">VIEW ALL OUR DATES →</h3></a>
+    </section>
 
+    <section class="bg__2">
+      <div class="newsletter">
+        <h2>STAY IN TOUCH</h2>
+        <p>Enter your e-mail below and be the first to know about new products, exclusive offers and more!</p>
+        <input type="email" class="form-control text-center" placeholder="Enter your e-mail here" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <button>SEND</button>
+      </div>
+    </section>
+  </main> 
 
-
-      </section>
-
-    </main>
-  </div>    
-  
-
- 
-  <footer></footer>
+  <footer>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>      
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-spotify"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Copyright AC/DC ©</p>
+    <p>Website by Factoría F5</p>
+    <p>All rights reserved</p>
+  </footer>
 
   <script src="../functions.js"></script>
+  <script src="https://kit.fontawesome.com/91cce502f4.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
