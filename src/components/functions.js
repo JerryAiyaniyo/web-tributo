@@ -5,7 +5,7 @@ function navbarLogoChange() {
 
 // Función play audio
 var audio = document.getElementById("audio");
-audio.volume = 0.8;
+audio.volume = 0.6;
 var playPauseBtn = document.getElementById('playPauseBtn');
 var count = 0;
 var changeTextBtn = document.querySelector('input[value="LISTEN"]');
