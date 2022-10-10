@@ -1,3 +1,8 @@
+body{
+    background-image: url('../../assets/Images/others/acdc-rama-cris.jpg');
+    background-repeat: no-repeat;
+}
+
 #merch .card{
     border: none;
 }
