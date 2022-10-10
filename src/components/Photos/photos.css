@@ -1,3 +1,27 @@
+.imgSeattle{
+    background-image: url("../../assets/Images/band pictures/pic-4.jpeg");
+}
+.imgBarcelona{
+background-image: url("../../assets/Images/band pictures/pic-3.png");
+}
+.imgKioto{
+    background-image: url("../../assets/Images/band pictures/pic-2.jpeg");
+}
+.card.photosCard{
+    height: 80vw;
+    background-size: cover;
+    background-position: center;
+}
 
+.card.photosCard h2{
+    vertical-align: middle;
+    font-size: 2.5rem;
+    color: var(--red-dark);
+    text-shadow: 3px 3px #000
+}
 
-/*# sourceMappingURL=photos.css.map */
+.hashtag{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../assets/Images/judit/power-up.jpg");
+}

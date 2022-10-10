@@ -74,7 +74,8 @@ h6 {
 }
 
 :root {
-  --black: #000;
+  --black: git#000;
   --white: #fff;
+  --red-dark:#950603;
   --title-font: "squealerregular";
 }
