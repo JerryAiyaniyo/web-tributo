@@ -1,12 +1,15 @@
 .imgSeattle{
     background-image: url("../../assets/Images/band pictures/pic-4.jpeg");
 }
+
 .imgBarcelona{
 background-image: url("../../assets/Images/band pictures/pic-3.png");
 }
+
 .imgKioto{
     background-image: url("../../assets/Images/band pictures/pic-2.jpeg");
 }
+
 .card.photosCard{
     height: 80vw;
     background-size: cover;
