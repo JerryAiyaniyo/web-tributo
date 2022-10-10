@@ -1,7 +1,39 @@
 .container{
     display: flex;
     align-items: center;
-    background-color: grey;
+    flex-direction: column;
+    background-color: #950603;
+
 }
 
+.firstdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #950603;
+    
+    
+}
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ 
 
+.allbuttons{
+    width: 120px ;
+    height: 30px;
+    border-radius: 30px;
+
+}
+
+.tourfoto1{
+    height: 300px;
+    width:500px;
+}    
+
+.tourfoto2{
+    height: 300px;
+    width:500px;
+}    
