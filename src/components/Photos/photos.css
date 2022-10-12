@@ -1,30 +1,134 @@
-.imgSeattle{
-    background-image: url("../../assets/Images/band pictures/pic-4.jpeg");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: var(--gris-claro);
+}
+.titulo{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+.titulo-contenido{
+    display: flex;
+    justify-content: center;
+}
+.titulo h1{
+    font-size: 5rem;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 5px red;
+}
+.titulo-subtitulo{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-left: 2rem; 
+    margin: 10;
 }
 
-.imgBarcelona{
-background-image: url("../../assets/Images/band pictures/pic-3.png");
+.tithash{
+    text-shadow: 2px 2px 5px red;
+    font-style: italic;
 }
 
-.imgKioto{
-    background-image: url("../../assets/Images/band pictures/pic-2.jpeg");
+.lorei{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: light;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.card.photosCard{
-    height: 80vw;
+.photos{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5rem;
+}
+.photos p{
+    color: #FB0206;
+    font-weight: bolder;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px rgb(57, 47, 47);
+}
+.photo-img{
+    width: 360px;
+    height: 360px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.piccuatro{
+    background-image: url('/./src/assets/Images/band/pic-4.jpeg');
+}
+.piccinco{
+    background-image: url('/./src/assets/Images/band/pic-5.jpeg');
+    justify-items: left;
+}
+.picseis{
+    background-image: url('/./src/assets/Images/band/pic-2.jpeg');
 }
 
-.card.photosCard h2{
-    vertical-align: middle;
-    font-size: 2.5rem;
-    color: var(--red-dark);
-    text-shadow: 3px 3px #000
-}
-
+/* hashtag */
 .hashtag{
+    width: 100%;
+    height: 800px;
+    background-image: url("/./src/assets/Images/band-pictures/acdc-wallpaper-4.jpeg");
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 20px;
     background-size: cover;
     background-position: center;
-    background-image: url("../../assets/Images/judit/power-up.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4rem;
 }
+.com{
+    font-size: 3rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hashtag h1{
+    font-size: 7rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgb(57, 47, 47);
+    position: inherit;
+}
+.lore{
+    font-size: 2rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* insta */
+.insta{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(41, 7, 7);
+    color: white;
+}
+/* /insta */
