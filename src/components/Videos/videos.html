@@ -6,25 +6,137 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Tributo AC/DC</title>
-<<<<<<< HEAD
-  <link rel="stylesheet" href="./videos.scss">
-=======
   <link rel="stylesheet" href="./videos.css">
->>>>>>> guillemDev
   <link rel="stylesheet" href="../../../styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-  <!-- Fonts -->
-  <link href="../../fonts/Glaser-Stencil-D-Regular.ttf" />
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <nav></nav>
-  <main></main>
-  <section></section>
-  <footer></footer>
+  <main class="videos">
+    <div class="bg__1">
+      <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+        <div class="container">
+          <button onclick="navbarLogoChange()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span id="navbarLogo" class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand mx-auto" href="../Index/index.html"><img src="../../assets/Images/logo/logo.png"
+              alt="logo" width="80"></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Index/index.html">⚡ Home ⚡</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Tour/tour.html">⚡ Tour ⚡</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Music/music.html">⚡ Music ⚡</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Videos/videos.html">⚡ Videos ⚡</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Photos/photos.html">⚡ Photos ⚡</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Merch/merch.html">⚡ Merch ⚡</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section class="container-fluid newVideo">
+      <div class="row">
+        <div class="col">
+          <h1>Videos</h1>
+          <div class="videoWrap" data-aos="zoom-in" data-aos-duration="1500">
+            <iframe width="100%" height="100%" max-width="500px" src="https://www.youtube.com/embed/UTPKMpX9qPg"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <h2 class="mt-2 mb-5">WITCH SPELL (OFFICIAL VIDEO)</h2>
+        </div>
+      </div>
+      <div class="row p-3 socialIcons justify-content-center">
+        <div class="col-4 col-sm-3  col-md-2 col-lg-1">
+          <a href="https://www.instagram.com/acdc/" target="_blank">
+            <img class="socialIcon" alt="Instagram logo" src="../../assets/Images/social/instagram.svg" />
+          </a>
+        </div>
+        <div class="col-4 col-sm-3  col-md-2 col-lg-1">
+          <a href="https://www.facebook.com/acdc" target="_blank">
+            <img class="socialIcon" alt="Facebook logo" src="../../assets/Images/social/facebook-f.svg" />
+          </a>
+        </div>
+        <div class="col-4 col-sm-3  col-md-2 col-lg-1">
+          <a href="https://twitter.com/acdc" target="_blank">
+            <img class="socialIcon" alt="Twitter logo" src="../../assets/Images/social/twitter.svg" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="moreVideos container-fluid mt-4">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h1>More videos</h1>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gEPmA3USJdI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/54LEywabkl4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ga5qfM2-kog"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/v2AC41dglnM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WllOatNmBK4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="3000" class="videoWrap col-12 col-sm-10 col-md-6 col-xl-4">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/l7-bIFDMSFA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; controls; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-spotify"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Copyright AC/DC ©</p>
+    <p>Website by Factoría F5</p>
+    <p>All rights reserved</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -32,6 +144,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
