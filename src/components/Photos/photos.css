@@ -74,21 +74,21 @@ html{
     margin-bottom: 5%;
 }
 .piccuatro{
-    background-image: url('/./src/assets/Images/band/pic-4.jpeg');
+    background-image: url("../../assets/Images/band/pic-4.jpeg");
 }
 .piccinco{
-    background-image: url('/./src/assets/Images/band/pic-5.jpeg');
+    background-image: url("../../assets/Images/band/pic-5.jpeg");
     justify-items: left;
 }
 .picseis{
-    background-image: url('/./src/assets/Images/band/pic-2.jpeg');
+    background-image: url("../../assets/Images/band/pic-2.jpeg");
 }
 
 /* hashtag */
 .hashtag{
     width: 100%;
     height: 800px;
-    background-image: url("/./src/assets/Images/band-pictures/acdc-wallpaper-4.jpeg");
+    background-image: url("../../assets/Images/band-pictures/acdc-wallpaper-4.jpeg");
     display: flex;
     justify-content: center;
     position: sticky;
