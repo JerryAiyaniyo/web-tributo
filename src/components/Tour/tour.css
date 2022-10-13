@@ -1,39 +1,149 @@
-.container{
+/* .section1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: #82181B;
+    position: relative;
+}
+.imagen_acdc{
+    height: 90vh;
+    width: 50%;
+    box-shadow: 0 0 5vh;
+}
+.img_acdc{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:400px;
+}
+.info_acdc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width:400px;
+       
+} */
+
+/* section1 */
+.section1{
+    background-color: #82181B;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_acdc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_acdc img{
+    width: 84%;
+    height: 84%;
+}
+/* /section1 */
+
+
+/* section2 */
+.section2{
+    width: 100%;
+    background-color: #82181B;
+    
+}
+
+.container_text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_img img{
+    width: 40%;
+    height: 40%;
+    transform: rotate(270deg);
+
+}
+
+/* /section2 */
+
+/* .section2{
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    background-color: #950603;
+    background: #82181B;
+    flex-wrap: wrap-reverse;
 
 }
-
-.firstdiv{
+.container_img{
+    width: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: #950603;
+    min-width: 600px;
+    transform: rotate(270deg);
+}
+.container_text{
+    width: 50%;
+    min-width: 600px;
+} */
+
+h1,p{
+    padding: 4vh;
+    color: white;
+}
+
+.btn_buy_ticket{
+    border-radius:99vh ;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 2vh black;
+    padding: 1vh 3vh;
+    transition:0.3s;
+}
+
+.btn_buy_ticket:hover{
+    background-color: white;
+    color: black;
+    border:black;
+    transition: 0.4s;
     
-    
-}
-.seconddiv{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
- 
-
-.allbuttons{
-    width: 120px ;
-    height: 30px;
-    border-radius: 30px;
-
 }
 
-.tourfoto1{
-    height: 300px;
-    width:500px;
-}    
+.change{
+    position: absolute;
+    animation:change_img 9s infinite ;
+}
+@keyframes change_img{
 
-.tourfoto2{
-    height: 300px;
-    width:500px;
-}    
+    0%{
+        opacity: 1;
+    }
+    4%{
+        opacity: 0;
+    }
+    40%{
+        opacity:0
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
