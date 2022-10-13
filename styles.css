@@ -101,7 +101,7 @@ h6 {
 .navbar-toggler-icon {
   width: 2em;
   height: 2em;
-  background-image: url("../../assets/Images/mask/angus-face-1.png") !important;
+  background-image: url("./src/assets/Images/mask/angus-face-1.png") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75% !important;
