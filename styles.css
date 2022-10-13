@@ -76,5 +76,74 @@ h6 {
 :root {
   --black: #000;
   --white: #fff;
+  --red-dark: #950603;
   --title-font: "squealerregular";
+}
+
+.navbar {
+  z-index: 200;
+}
+
+.navbar-nav {
+  border: 1px solid #cd9c06;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+  background-image: url("../../assets/Images/mask/angus-face-1.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75% !important;
+}
+
+.navbar-brand img {
+  margin-right: 35px;
+}
+
+.navbar-toggler {
+  padding: 1px !important;
+  border-radius: 30px !important;
+  background-color: #bf0706 !important;
+}
+
+.nav-item {
+  font-family: "glaser_stencil_dregular", sans-serif;
+  color: white;
+  padding: 5px 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: black !important;
+  font-size: 1.4rem;
+}
+
+.audio__btn {
+  z-index: 10;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.audio__btn input {
+  background-color: #bf0706;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cd9c06;
+  color: #edbf35;
+  font-family: "glaser_stencil_dregular";
 }

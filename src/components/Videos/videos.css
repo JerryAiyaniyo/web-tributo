@@ -1,3 +1,77 @@
+.videos {
+  color: var(--white);
+  background-color: var(--black);
+}
 
+.videos .newVideo {
+  background-image: url("../../assets/Images/band-pictures/acdc-wallpaper.jpeg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  box-shadow: inset 0 -50px 50px 0px var(--black);
+  padding-top: 4rem;
+}
 
-/*# sourceMappingURL=videos.css.map */
+.socialIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.videos .newVideo .videoWrap {
+  width: 90vw;
+  height: 51vw;
+  margin: 0 auto;
+  box-shadow: 0 0px 10vw 0px var(--red-dark);
+}
+
+.videos .moreVideos .videoWrap {
+  /* width: 100%; */
+  height: 54vw;
+  margin: 0.8rem 0 0.8rem 0;
+}
+
+h1 {
+  padding: 1.5rem 0 0.5rem 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Small devices (landscape phones, 576px and up) SM*/
+@media (min-width: 576px) {
+  .videos .moreVideos .videoWrap {
+    /* width: 100%; */
+    height: 45vw;
+  }
+}
+/* Medium devices (tablets, 768px and up) MD*/
+@media (min-width: 768px) {
+  .videos .moreVideos .videoWrap {
+    height: 26vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .videos .newVideo .videoWrap {
+    width: 60vw;
+    height: 34vw;
+  }
+
+  .videos .moreVideos .videoWrap {
+    height: 26vw;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .videos .moreVideos .videoWrap {
+    height: 18vw;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

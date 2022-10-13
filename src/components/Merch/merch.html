@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,161 @@
   <title>Web Tributo AC/DC</title>
   <link rel="stylesheet" href="merch.css">
   <link rel="stylesheet" href="../../../styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
-<body>
-  <nav></nav>
-  <main></main>
-  <section></section>
-  <footer></footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <div class="container">
+      <button onclick="navbarLogoChange()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="navbarLogo" class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto" href="../Index/index.html"><img src="../../assets/Images/logo/logo.png" alt="logo" width="80"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Index/index.html">⚡ Home ⚡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Tour/tour.html">⚡ Tour ⚡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Music/music.html">⚡ Music ⚡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Videos/videos.html">⚡ Videos ⚡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Photos/photos.html">⚡ Photos ⚡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Merch/merch.html">⚡ Merch ⚡</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- /navbar -->
+
+  <!-- button merch -->
+  <section id="store-button" >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 text-center">
+          <button type="button" class="btn btn-secondary btn-lg text-uppercase">Merchandise</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / button merch -->
+
+
+  <!-- Merchandise -->
+  <section id="merch" class="container pt-5">
+    <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1">
+      <div class="card text-center">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body pt-5 pb-5">
+          <h5 class="card-title fs-3">Save 15% ON YOUR FIRST ORDER</h5>
+          <p class="card-text fs-5">Enter your email below and be the first to kwon about new products, exclusive
+            offers, and more!</p>
+          <p class="card-text">offer does not apply to merchandise printed on demand or media.</p>
+          <div class="row">
+            <div class="col">
+              <input type="email" class="form-control" id="floatingInputValue" placeholder="name@correo.com">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <button type="button" class="btn btn-primary text-uppercase">send!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Merchandise -->
+
+  <!-- Form -->
+  <section id="form">
+    <div class="container mt-3 mb-5">
+      <div class="row">
+        <div class="col text-center text-white">
+          <h2>GET EMAIL UPDATES</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1">
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control text-center" placeholder="EMAIL ADDREESS (REQUIRED)" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <input type="number" class="form-control text-center" placeholder="POSTAL CODE (REQUIRED)">
+            </div>
+            <select class="form-select text-center" aria-label="Default select example">
+              <option selected>COUNTRY</option>
+              <option value="1">Spain</option>
+              <option value="2">United States</option>
+              <option value="3">Italy</option>
+            </select>
+            <div class="row pt-3">
+              <div class="col text-center">
+                <p class="text-white">Subscribe to receive email updates from</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-2 col-md-4 offset-md-2">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-white for="exampleCheck1">AC DC</label>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-white" for="exampleCheck1">OFFCIAL STORE</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="btn btn-primary">SUSBSCRIBE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Form -->
+
+
+  <!-- footer -->
+  <footer>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>      
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-spotify"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Copyright AC/DC ©</p>
+    <p>Website by Factoría F5</p>
+    <p>All rights reserved</p>
+  </footer>
+  <!-- /footer -->
+
+
+  <script src="https://kit.fontawesome.com/91cce502f4.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
